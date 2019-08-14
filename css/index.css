@@ -134,3 +134,169 @@ html,
 body {
   height: 100%;
 }
+/*Variables*/
+/*mix-ins*/
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+h1,
+h2,
+h3 {
+  font-size: 2rem;
+  font-family: 'Fjalla One', sans-serif;
+}
+img {
+  width: 20%;
+  height: auto;
+  display: flex;
+  margin-left: 37.5%;
+}
+p {
+  line-height: 1;
+  margin: 25px 0;
+  font-size: 1.8rem;
+  background-color: black;
+  color: white;
+  border: 1.5px solid maroon;
+  margin: 3%;
+  padding: 3%;
+}
+ul {
+  border: 2.5px solid skyblue;
+  background-color: black;
+  color: gold;
+}
+li {
+  font-size: 2rem;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-left: 35%;
+  font-size: 1.6rem;
+  display: flex;
+}
+header {
+  border-bottom: 2px solid maroon;
+  margin: 20px 0;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+header h1 {
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+  header h1 {
+    margin-bottom: 15px;
+  }
+}
+header nav {
+  margin-left: 55px;
+}
+@media (max-width: 500px) {
+  header nav {
+    margin-left: 0;
+  }
+}
+header nav a {
+  margin-left: 15px;
+  font-size: 1.8rem;
+}
+header nav .first-anchor {
+  margin-left: 0;
+}
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+}
+.main-content h2 {
+  display: flex;
+  margin-left: 58%;
+}
+.main-content p {
+  display: flex;
+  margin-left: 25%;
+}
+.main-content ul {
+  display: flex;
+  flex-direction: column;
+  width: 72%;
+  margin-left: 25%;
+}
+.main-content .castle {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  margin-left: 47%;
+  margin-top: -35%;
+}
+@media (max-width: 500px) {
+  .main-content {
+    flex-direction: column;
+  }
+}
+.main-content section {
+  margin: 20px 3%;
+  width: 45%;
+}
+@media (mad-width: 500px) {
+  .main-content section {
+    width: 90%;
+  }
+}
+.bottom-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.bottom-content section {
+  margin-left: 11.7%;
+  width: 100%;
+}
+.bottom-content h2 {
+  margin-left: 20%;
+  display: flex;
+  padding: 17px 0;
+}
+.bottom-content ul {
+  display: flex;
+  flex-direction: column;
+  width: 37%;
+  margin-left: 3%;
+  line-height: 2;
+}
+footer {
+  margin-bottom: 35px;
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+}
+footer h2 {
+  display: flex;
+  justify-content: center;
+}
+footer p {
+  width: 101%;
+}
+.screenPic {
+  display: flex;
+  margin-left: 48%;
+  margin-top: -27.5%;
+  width: 50%;
+  height: 40%;
+}
